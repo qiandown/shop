@@ -1,0 +1,1086 @@
+[ 2017-08-03T08:31:12+08:00 ] 127.0.0.1 /home/login/login.html
+ERR: 无法加载控制器:Login
+
+[ 2017-08-03T08:39:22+08:00 ] 127.0.0.1 /home/index/add.html
+ERR: 非法操作:add
+
+[ 2017-08-03T08:39:26+08:00 ] 127.0.0.1 /home/user/add.html
+ERR: 非法操作:add
+
+[ 2017-08-03T09:25:12+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:del
+
+[ 2017-08-03T09:32:57+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T09:33:24+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T09:33:55+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T09:33:57+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-03T09:34:23+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=2and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=2and user_id=1 )
+
+[ 2017-08-03T09:34:30+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=2and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=2and user_id=1 )
+
+[ 2017-08-03T09:34:31+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=1and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=1and user_id=1 )
+
+[ 2017-08-03T09:35:58+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-03T09:36:06+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T09:36:19+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-03T09:36:25+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T09:37:18+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=2and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=2and user_id=1 )
+
+[ 2017-08-03T09:38:59+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=2and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=2and user_id=1 )
+
+[ 2017-08-03T09:42:18+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T09:45:20+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=1and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=1and user_id=1 )
+
+[ 2017-08-03T09:45:22+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=2and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=2and user_id=1 )
+
+[ 2017-08-03T09:45:28+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=1and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=1and user_id=1 )
+
+[ 2017-08-03T09:46:15+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=2and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=2and user_id=1 )
+
+[ 2017-08-03T09:46:22+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=1and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=1and user_id=1 )
+
+[ 2017-08-03T09:49:31+08:00 ] 127.0.0.1 /index.php/Home/goods/showlit.html
+ERR: 非法操作:showlit
+
+[ 2017-08-03T09:49:45+08:00 ] 127.0.0.1 /index.php/Home/goods/showlit.html
+ERR: 非法操作:showlit
+
+[ 2017-08-03T09:51:52+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T09:52:11+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-03T09:52:13+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T09:55:10+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:55:12+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:55:15+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:55:15+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:55:16+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:55:16+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:55:21+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:58:54+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:58:56+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:58:57+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:58:57+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:58:58+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:58:58+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:58:58+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:58:58+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:58:59+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:59:00+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:59:01+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:59:01+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:59:01+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:59:02+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:59:02+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:59:03+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:59:03+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:59:03+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:59:03+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:59:04+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:59:11+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:59:13+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T09:59:17+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T10:28:19+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-03T10:28:35+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-03T10:34:30+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T10:34:32+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T10:34:35+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T10:34:35+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T10:34:36+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T10:34:48+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T10:34:49+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T10:34:50+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T10:34:52+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T10:34:53+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T10:34:56+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T10:34:57+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T10:34:57+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T10:35:00+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T10:35:09+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:edit
+
+[ 2017-08-03T10:43:48+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:43:49+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-03T10:44:14+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:44:19+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-03T10:44:20+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-03T10:44:21+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-03T10:44:21+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:44:21+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:44:27+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-03T10:44:29+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:44:31+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:53:41+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:53:43+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:53:44+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:53:45+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:53:55+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:54:02+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:54:07+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-03T10:55:57+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-03T10:55:59+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-03T10:55:59+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-03T10:56:58+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:57:00+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:58:31+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:58:32+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:58:35+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:58:36+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:58:44+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-03T10:58:45+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-03T10:58:47+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-03T10:58:48+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:58:51+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T10:58:51+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-03T11:49:42+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-03T11:49:44+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-03T11:49:45+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T11:50:07+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=2and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=2and user_id=1 )
+
+[ 2017-08-03T11:50:08+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0050s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=1and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=1and user_id=1 )
+
+[ 2017-08-03T11:50:09+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=1and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=1and user_id=1 )
+
+[ 2017-08-03T11:50:10+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=14and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=14and user_id=1 )
+
+[ 2017-08-03T14:41:04+08:00 ] 127.0.0.1 /index.php/Home/Cart/showlist.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_cart` WHERE ( user_id= ) 
+
+[ 2017-08-03T14:41:15+08:00 ] 127.0.0.1 /index.php/Home/Cart/showlist.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_cart` WHERE ( user_id= ) 
+
+[ 2017-08-03T14:44:51+08:00 ] 127.0.0.1 /index.php/Home/Cart/showlist.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_cart` WHERE ( user_id= ) 
+
+[ 2017-08-03T14:45:45+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T14:46:43+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-03T14:46:46+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-03T14:46:47+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T14:46:47+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-03T14:46:49+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T14:46:52+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-03T14:46:54+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-03T14:46:59+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-03T14:47:00+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T14:54:10+08:00 ] 127.0.0.1 /index.php/Home/order/login.html
+ERR: 非法操作:login
+
+[ 2017-08-03T15:10:57+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0790s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0490s ]
+
+[ 2017-08-03T15:10:59+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-03T15:10:59+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-03T15:12:04+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-03T15:12:09+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-03T15:12:14+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-03T15:14:02+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-03T15:14:02+08:00 ] 127.0.0.1 /index.php/Home/order/show.html
+ERR: 非法操作:show
+
+[ 2017-08-03T15:14:29+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-03T15:19:47+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-03T15:20:11+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-03T15:20:25+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-03T15:20:31+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-03T15:30:20+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-03T15:30:20+08:00 ] 127.0.0.1 /index.php/Home/order/show.html
+ERR: 1146:Table 'php10_shop.tp_address' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_address`
+
+[ 2017-08-03T15:31:17+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-03T15:31:17+08:00 ] 127.0.0.1 /index.php/Home/order/show.html
+ERR: 1146:Table 'php10_shop.tp_address' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_address`
+
+[ 2017-08-03T15:31:54+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-03T15:31:54+08:00 ] 127.0.0.1 /index.php/Home/order/show.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_location` WHERE ( user_id= ) 
+
+[ 2017-08-03T15:46:18+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-03T15:46:35+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-03T15:46:35+08:00 ] 127.0.0.1 /index.php/Home/order/show.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_location` WHERE ( user_id= ) 
+
+[ 2017-08-03T15:50:42+08:00 ] 127.0.0.1 /index.php/Home/order/add.html
+ERR: 1146:Table 'php10_shop.tp_address' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_address`
+
+[ 2017-08-03T15:51:15+08:00 ] 127.0.0.1 /index.php/Home/order/paynow.html
+ERR: 非法操作:paynow
+
+[ 2017-08-03T15:54:08+08:00 ] 127.0.0.1 /index.php/Home/order/paynow/oid/12.html
+ERR: 非法操作:paynow
+
+[ 2017-08-03T15:56:44+08:00 ] 127.0.0.1 /index.php/Home/login/logout.html
+ERR: 无法加载控制器:Login
+
+[ 2017-08-03T15:57:12+08:00 ] 127.0.0.1 /index.php/Home/login/logout.html
+ERR: 无法加载控制器:Login
+
+[ 2017-08-03T15:59:46+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0010s ]
+

@@ -1,0 +1,57 @@
+[ 2017-07-11T11:17:27+08:00 ] 127.0.0.1 /Admin/Brand/test.html
+ERR: 非法操作:test
+
+[ 2017-07-11T14:43:54+08:00 ] 127.0.0.1 /Admin/Brand/admin.php?c=goods&a=showlist
+ERR: 非法操作:admin.php
+
+[ 2017-07-11T15:09:35+08:00 ] 127.0.0.1 /admin/brand/login
+ERR: 非法操作:login
+
+[ 2017-07-11T15:56:40+08:00 ] 127.0.0.1 /Admin/Login/captcha.html0.9168746531117808
+ERR: 非法操作:captcha.html0.9168746531117808
+
+[ 2017-07-11T15:56:41+08:00 ] 127.0.0.1 /Admin/Login/captcha.html0.91687465311178080.014838947955952309
+ERR: 非法操作:captcha.html0.91687465311178080.014838947955952309
+
+[ 2017-07-11T15:57:33+08:00 ] 127.0.0.1 /Admin/Login/captcha.htmla=
+ERR: 非法操作:captcha.htmla=
+
+[ 2017-07-11T15:57:35+08:00 ] 127.0.0.1 /Admin/Login/captcha.htmla=
+ERR: 非法操作:captcha.htmla=
+
+[ 2017-07-11T15:57:36+08:00 ] 127.0.0.1 /Admin/Login/captcha.htmla=
+ERR: 非法操作:captcha.htmla=
+
+[ 2017-07-11T15:58:05+08:00 ] 127.0.0.1 /Admin/Login/captcha0.17714145462192343
+ERR: 非法操作:captcha0.17714145462192343
+
+[ 2017-07-11T16:17:28+08:00 ] 127.0.0.1 /Admin/Login/captcha.html
+ERR: Think\Controller:check方法不存在！
+
+[ 2017-07-11T16:24:32+08:00 ] 127.0.0.1 /Admin/Login
+ERR: 非法操作:index
+
+[ 2017-07-11T16:41:39+08:00 ] 127.0.0.1 /Admin/Login/captcha.html
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_admin` WHERE ( username=admin ) LIMIT 1  
+
+[ 2017-07-11T16:42:21+08:00 ] 127.0.0.1 /Admin/Login/captcha.html
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_admin` WHERE ( username=admin ) LIMIT 1  
+
+[ 2017-07-11T17:28:27+08:00 ] 127.0.0.1 /Admin/Login/captcha.html
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_admin` WHERE ( username=admin ) LIMIT 1  
+
+[ 2017-07-11T19:13:48+08:00 ] 127.0.0.1 /admin/brand
+ERR: 非法操作:index
+
+[ 2017-07-11T19:13:58+08:00 ] 127.0.0.1 /admin/brand/brand
+ERR: 非法操作:brand
+
+[ 2017-07-11T20:04:30+08:00 ] 127.0.0.1 /Admin/Login/test.html
+ERR: 非法操作:test
+
+[ 2017-07-11T22:54:42+08:00 ] 127.0.0.1 /Admin/Login/captcha/a/
+ERR: 非法操作:captcha
+

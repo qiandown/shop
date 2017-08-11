@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>duanxin</title>
+</head>
+<script type="text/javascript" src="__ADMIN__jquery-1.7.2.js"></script>
+<body>
+<input name="user_phone" id="user_phone" type="text"  />
+	<input type="button" value="点击发送验证码" onclick=send_code() id="get_code">
+</body>
+<script type="text/javascript">
+    var time = 5;
+    function send_code(){
+        //定义等待时间60秒
+        send_obj = $('#get_code');
+        //第一次发送验证码
+        if(time==5){
+            //获取用户输入的手机号
+            phone = $('#user_phone').val();
+            //发送ajax请求
+            $.post('{:U("index/test1")}',{ph:phone},function(data){
+                
+                if(data.status!=1){
+                    alert('服务器繁忙请稍后在试...!');
+                }   
+            },'json')
+        }
+        if(time==0){
+            send_obj.removeAttr('disabled');
+            send_obj.val("重新获取");
+            time=5;
+        }else{
+            send_obj.attr('disabled',true);
+            send_obj.val("重新发送("+time+")");
+            time--;
+            setTimeout(function(){
+                send_code();
+            },1000)
+        }
+    }
+</script>
+</html>

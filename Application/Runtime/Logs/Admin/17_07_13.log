@@ -1,0 +1,21 @@
+[ 2017-07-13T08:42:00+08:00 ] 127.0.0.1 /admin/brand/test
+ERR: 非法操作:test
+
+[ 2017-07-13T13:31:38+08:00 ] 127.0.0.1 /Admin/brand/showlist.html
+ERR: Think\Controller:select方法不存在！
+
+[ 2017-07-13T20:36:18+08:00 ] 127.0.0.1 /admin/brand/test
+ERR: 非法操作:test
+
+[ 2017-07-13T20:36:26+08:00 ] 127.0.0.1 /admin/brand
+ERR: 非法操作:index
+
+[ 2017-07-13T20:36:29+08:00 ] 127.0.0.1 /admin/brand
+ERR: 非法操作:index
+
+[ 2017-07-13T20:40:57+08:00 ] 127.0.0.1 /Admin/brand/showlist.html.html
+ERR: 非法操作:showlist.html
+
+[ 2017-07-13T20:42:01+08:00 ] 127.0.0.1 /Admin/brand/showlist.html.html
+ERR: 非法操作:showlist.html
+
