@@ -1,0 +1,48 @@
+[ 2017-08-07T14:53:11+08:00 ] 127.0.0.1 /index.php/Home/order/show.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_location` WHERE ( user_id= ) 
+
+[ 2017-08-07T14:53:16+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-07T14:53:18+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-07T14:53:19+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-07T14:53:22+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-07T14:53:31+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0312s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-07T14:55:17+08:00 ] 127.0.0.1 /index.php/Home/order/paynow/oid/17.html
+ERR: 非法操作:paynow
+

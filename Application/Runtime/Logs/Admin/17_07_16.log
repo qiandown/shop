@@ -1,0 +1,221 @@
+[ 2017-07-16T08:33:59+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T08:34:00+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T08:34:40+08:00 ] 127.0.0.1 /Admin/Goods/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='Lenovo/联想 拯救者 R720-15IKB ',`goods_number`='LX000001',`goods_count`='1212',`brand_id`='3',`cate_id`='1',`goods_status`='0',`goods_weight`='500g',`goods_addtime`=NULL,`goods_click`='99',`goods_price`='7000.00',`goods_mprice`='5000.00',`goods_big_pic`='',`goods_small_pic`='',`goods_description`='还不错' WHERE `id` = 1 [ RunTime:0.0156s ]
+
+[ 2017-07-16T08:34:40+08:00 ] 127.0.0.1 /Admin/Goods/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='Lenovo/联想 拯救者 R720-15IKB ',`goods_number`='LX000001',`goods_count`='1212',`brand_id`='3',`cate_id`='1',`goods_status`='1',`goods_weight`='500g',`goods_addtime`=NULL,`goods_click`='99',`goods_price`='7000.00',`goods_mprice`='5000.00',`goods_big_pic`='',`goods_small_pic`='',`goods_description`='还不错' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-16T08:37:10+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T08:37:14+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T08:45:57+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T08:46:03+08:00 ] 127.0.0.1 /Admin/Goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T08:47:00+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T08:52:28+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T08:52:54+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T08:53:01+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T19:29:48+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T19:31:06+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T19:31:08+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T19:34:23+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T19:34:25+08:00 ] 127.0.0.1 /Admin/Goods/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0312s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='Lenovo/联想 拯救者 R720-15IKB ',`goods_number`='LX000001',`goods_count`='1212',`brand_id`='3',`cate_id`='1',`goods_status`='0',`goods_weight`='500g',`goods_addtime`=NULL,`goods_click`='99',`goods_price`='7000.00',`goods_mprice`='5000.00',`goods_big_pic`='',`goods_small_pic`='',`goods_description`='还不错' WHERE `id` = 1 [ RunTime:0.0936s ]
+
+[ 2017-07-16T19:34:26+08:00 ] 127.0.0.1 /Admin/Goods/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='Lenovo/联想 拯救者 R720-15IKB ',`goods_number`='LX000001',`goods_count`='1212',`brand_id`='3',`cate_id`='1',`goods_status`='1',`goods_weight`='500g',`goods_addtime`=NULL,`goods_click`='99',`goods_price`='7000.00',`goods_mprice`='5000.00',`goods_big_pic`='',`goods_small_pic`='',`goods_description`='还不错' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-16T19:34:26+08:00 ] 127.0.0.1 /Admin/Goods/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='Lenovo/联想 拯救者 R720-15IKB ',`goods_number`='LX000001',`goods_count`='1212',`brand_id`='3',`cate_id`='1',`goods_status`='0',`goods_weight`='500g',`goods_addtime`=NULL,`goods_click`='99',`goods_price`='7000.00',`goods_mprice`='5000.00',`goods_big_pic`='',`goods_small_pic`='',`goods_description`='还不错' WHERE `id` = 1 [ RunTime:0.0000s ]
+
+[ 2017-07-16T19:37:41+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T19:37:48+08:00 ] 127.0.0.1 /Admin/Goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T19:54:33+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T19:54:33+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T19:54:35+08:00 ] 127.0.0.1 /
+ERR: 1146:Table 'php10_shop.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+
+[ 2017-07-16T19:54:41+08:00 ] 127.0.0.1 /
+ERR: 1146:Table 'php10_shop.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+
+[ 2017-07-16T19:58:32+08:00 ] 127.0.0.1 /Admin/index/index.html
+ERR: 1146:Table 'php10_shop.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+
+[ 2017-07-16T20:01:59+08:00 ] 127.0.0.1 /Admin/index/index.html
+ERR: 1146:Table 'php10_shop.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+
+[ 2017-07-16T20:02:01+08:00 ] 127.0.0.1 /Admin/index/index.html
+ERR: 1146:Table 'php10_shop.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+
+[ 2017-07-16T20:02:02+08:00 ] 127.0.0.1 /Admin/index/index.html
+ERR: 1146:Table 'php10_shop.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+
+[ 2017-07-16T20:02:02+08:00 ] 127.0.0.1 /Admin/index/index.html
+ERR: 1146:Table 'php10_shop.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+
+[ 2017-07-16T20:02:03+08:00 ] 127.0.0.1 /Admin/index/index.html
+ERR: 1146:Table 'php10_shop.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+
+[ 2017-07-16T20:02:03+08:00 ] 127.0.0.1 /Admin/index/index.html
+ERR: 1146:Table 'php10_shop.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+
+[ 2017-07-16T20:02:03+08:00 ] 127.0.0.1 /Admin/index/index.html
+ERR: 1146:Table 'php10_shop.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+
+[ 2017-07-16T20:02:08+08:00 ] 127.0.0.1 /Admin/index/index.html
+ERR: 1146:Table 'php10_shop.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+
+[ 2017-07-16T20:02:08+08:00 ] 127.0.0.1 /Admin/index/index.html
+ERR: 1146:Table 'php10_shop.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+
+[ 2017-07-16T20:02:08+08:00 ] 127.0.0.1 /Admin/index/index.html
+ERR: 1146:Table 'php10_shop.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+
+[ 2017-07-16T20:02:08+08:00 ] 127.0.0.1 /Admin/index/index.html
+ERR: 1146:Table 'php10_shop.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+
+[ 2017-07-16T20:02:13+08:00 ] 127.0.0.1 /
+ERR: 1146:Table 'php10_shop.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+
+[ 2017-07-16T20:20:42+08:00 ] 127.0.0.1 /Admin/index/index.html
+ERR: 1146:Table 'php10_shop.tp_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_index`
+
+[ 2017-07-16T20:22:44+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-16T21:24:09+08:00 ] 127.0.0.1 /Admin/system/menuList.html
+ERR: 无法加载控制器:System
+
+[ 2017-07-16T21:24:35+08:00 ] 127.0.0.1 /Admin/system/menuList.html
+ERR: 无法加载控制器:System
+
+[ 2017-07-16T21:24:59+08:00 ] 127.0.0.1 /Admin/System/menuAdd.html
+ERR: 非法操作:menuAdd
+
+[ 2017-07-16T22:12:35+08:00 ] 127.0.0.1 /Admin/Index/rolelist.html
+ERR: 非法操作:rolelist
+
+[ 2017-07-16T22:12:57+08:00 ] 127.0.0.1 /Admin/Index/Systemrolelist.html
+ERR: 非法操作:Systemrolelist
+
+[ 2017-07-16T22:13:11+08:00 ] 127.0.0.1 /Admin/Index/Systemrolelist.html
+ERR: 非法操作:Systemrolelist
+
+[ 2017-07-16T22:13:13+08:00 ] 127.0.0.1 /Admin/Index/Systemrolelist.html
+ERR: 非法操作:Systemrolelist
+
+[ 2017-07-16T22:13:13+08:00 ] 127.0.0.1 /Admin/Index/Systemrolelist.html
+ERR: 非法操作:Systemrolelist
+
+[ 2017-07-16T22:13:29+08:00 ] 127.0.0.1 /Admin/Index/Systemrolelist.html
+ERR: 非法操作:Systemrolelist
+
+[ 2017-07-16T22:13:29+08:00 ] 127.0.0.1 /Admin/Index/Systemrolelist.html
+ERR: 非法操作:Systemrolelist
+
+[ 2017-07-16T22:13:30+08:00 ] 127.0.0.1 /Admin/Index/Systemrolelist.html
+ERR: 非法操作:Systemrolelist
+
+[ 2017-07-16T22:13:30+08:00 ] 127.0.0.1 /Admin/Index/Systemrolelist.html
+ERR: 非法操作:Systemrolelist
+
+[ 2017-07-16T22:20:20+08:00 ] 127.0.0.1 /Admin/System/role_list.html
+ERR: 非法操作:role_list
+
+[ 2017-07-16T22:28:53+08:00 ] 127.0.0.1 /Admin/System/role_list.html
+ERR: 非法操作:role_list
+
+[ 2017-07-16T22:35:31+08:00 ] 127.0.0.1 /Admin/system/accessList/id/1.html
+ERR: Think\Controller:diaplay方法不存在！
+
+[ 2017-07-16T22:43:20+08:00 ] 127.0.0.1 /Admin/System/role_list.html
+ERR: 非法操作:role_list
+
+[ 2017-07-16T22:43:42+08:00 ] 127.0.0.1 /Admin/System/role_list.html
+ERR: 非法操作:role_list
+
+[ 2017-07-16T23:15:37+08:00 ] 127.0.0.1 /Admin/system/accessList/id/1.html
+ERR: 1146:Table 'php10_shop.tp_accesee' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_accesee`
+

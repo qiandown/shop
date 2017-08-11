@@ -1,0 +1,146 @@
+
+  <style type="text/css">
+            table {border:1px solid #dddddd; border-collapse: collapse; width:99%; margin:auto;}
+            td {border:1px solid #dddddd;}
+            #consignee_addr {width:450px;}
+        </style>
+
+
+ <div class="block box">
+            <div class="blank"></div>
+            <div id="ur_here">
+                当前位置: <a href="#">首页</a> <code>&gt;</code> 购物流程 
+            </div>
+        </div>
+        <div class="blank"></div>
+
+        <div class="blank"></div>
+        <div class="block">
+            <div class="flowBox">
+                <h6><span>商品列表</span></h6>
+                <form id="formCart">
+                    <table cellpadding="5" cellspacing="1">
+                        <tbody><tr>
+                                <th>商品名称</th>
+                                <th>属性</th>
+                                <th>市场价</th>
+                                <th>本店价</th>
+                                <th>购买数量</th>
+                                <th>小计</th>
+                                <th>操作</th>
+                            </tr>
+
+
+                            <foreach name="cart_datas" item="d">
+                            <tr>
+                                <td align="center">
+                                    <a href="#" target="_blank"><img style="width: 80px; height: 80px;" src="__UPLOAD__{$d.goods_small_pic}" title="P806" /></a><br />
+                                    <a href="#" target="_blank" class="f6">{$d.goods_name}</a>
+                                </td>
+                                <td>
+                            <foreach key="k" name="d[goods_attr]" item="dd">
+                                {$k}:{$dd} <br />
+                            </foreach>
+                                </td>
+                                <td align="right">￥{$d.goods_mprice}元</td>
+                                <td align="right">￥<span class="goods_price">{$d.goods_price}</span>元</td>
+                                <td align="right">
+                                [<a class="mus" data-id="{$d.goods_id}" href="javascript:void(0);">-</a>]
+                                    <input value="{$d.number}" size="4" class="inputBg" style="text-align: center;" type="text" />[<a data-id="{$d.goods_id}" class="add" href="javascript:void(0);">+</a>]
+                                </td>
+                                <td align="right">￥<span class="subtotal">{$d.subtotal}</span>元</td>
+                                <td align="center">
+                                    <a data-id="{$d.goods_id}" href="javascript:void(0);" class="cart_del">删除</a>
+                                </td>
+                            </tr>
+</foreach>
+
+                        </tbody></table>
+                    <table cellpadding="5" cellspacing="1">
+                        <tbody><tr>
+                                <td>
+                                    购物金额总计 ￥<span id="total">0</span>元              </td>
+                                <td align="right">
+                                    <input value="清空购物车" class="bnt_blue_1"  type="button" />
+                                    <input name="submit" class="bnt_blue_1" value="更新购物车" type="submit" />
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    <input name="step" value="update_cart" type="hidden" />
+                </form>
+                <table cellpadding="5" cellspacing="0" width="99%">
+                    <tbody><tr>
+                            <td><a href="{:U('goods/showlist')}"><img src="__HOME__images/continue.gif" alt="continue" /></a></td>
+                            <td align="right"><a href="{:U('order/show')}"><img src="__HOME__images/checkout.gif" alt="checkout" /></a></td>
+                        </tr>
+                    </tbody></table>
+            </div>
+            <div class="blank"></div>
+            <div class="blank5"></div>
+        </div>
+<script src="__COMMON__jquery-1.7.2.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function(){
+        //增加点击事件
+        $('.cart_del').click(function(){
+            //获取要删除的商品的ID
+              _this = $(this);
+            id = _this.attr('data-id');
+            //使用ajax里面的post
+            $.post('__CONTROLLER__/del',{goods_id:id},function(){
+
+                    _this.parents('tr').remove();
+                
+            },'json');
+        })
+
+        //加号点击事件
+        $('.add').click(function(){
+            //获取要增加的input框的值
+            val = $(this).prev('input').val();
+            val++;
+             $(this).prev('input').val(val);
+            //获取修改的商品的ID 
+            goods_id = $(this).attr('data-id');
+            //将修改的商品的ID 以及数量传递给后台
+            $.post('__CONTROLLER__/edit',{"goods_id":goods_id,"number":val});
+           subtotal_s($(this),val);
+           total_s();
+           
+        })
+        //减号点击事件
+        $('.mus').click(function(){
+             //获取要增加的input框的值
+            val = $(this).next('input').val();
+            //获取修改的商品的ID 
+            goods_id = $(this).attr('data-id');
+            //将修改的商品的ID 以及数量传递给后台
+            if(val>1){
+                 val--;
+                 $(this).next('input').val(val);
+                 //后台真实修改数据
+                $.post('__CONTROLLER__/edit',{"goods_id":goods_id,"number":val});
+                subtotal_s($(this),val);
+                total_s();
+            }    
+        })
+    })
+    //小计方法
+    function subtotal_s(obj,val){
+         //做小计 = 商品的数量*单价
+            price = obj.parents('tr').find('.goods_price').text();
+            subtotal = price*val;
+            obj.parents('tr').find('.subtotal').text(subtotal);
+    }
+    //总价
+    function total_s(){
+         var total = 0;
+            //统计总价
+            $('.subtotal').each(function(){
+                subprice = $(this).text();
+                total+=parseInt(subprice);
+            })
+          $('#total').html(total);
+    }
+</script>
+    

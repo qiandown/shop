@@ -1,0 +1,114 @@
+[ 2017-08-04T08:29:34+08:00 ] 127.0.0.1 /index.php/Home/Cart/showlist.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_cart` WHERE ( user_id= ) 
+
+[ 2017-08-04T08:29:51+08:00 ] 127.0.0.1 /index.php/Home/Cart/showlist.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_cart` WHERE ( user_id= ) 
+
+[ 2017-08-04T08:29:58+08:00 ] 127.0.0.1 /index.php/Home/Cart/showlist.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_cart` WHERE ( user_id= ) 
+
+[ 2017-08-04T08:30:05+08:00 ] 127.0.0.1 /index.php/Home/Cart/showlist.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_cart` WHERE ( user_id= ) 
+
+[ 2017-08-04T08:30:26+08:00 ] 127.0.0.1 /index.php/Home/Cart/showlist.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_cart` WHERE ( user_id= ) 
+
+[ 2017-08-04T08:31:37+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-04T08:31:39+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-04T08:31:41+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-04T08:31:43+08:00 ] 127.0.0.1 /index.php/Home/Cart/edit
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-04T08:31:46+08:00 ] 127.0.0.1 /index.php/Home/order/show.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_location` WHERE ( user_id= ) 
+
+[ 2017-08-04T08:33:04+08:00 ] 127.0.0.1 /index.php/Home/order/show.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_location` WHERE ( user_id= ) 
+
+[ 2017-08-04T08:33:07+08:00 ] 127.0.0.1 /index.php/Home/order/show.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_location` WHERE ( user_id= ) 
+
+[ 2017-08-04T08:34:29+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=1and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=1and user_id=1 )
+
+[ 2017-08-04T08:34:30+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=1and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=1and user_id=1 )
+
+[ 2017-08-04T08:34:31+08:00 ] 127.0.0.1 /index.php/Home/Cart/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_cart` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=2and user_id=1 )
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_id=1 )' at line 1
+ [ SQL语句 ] : DELETE FROM `tp_cart` WHERE ( goods_id=2and user_id=1 )
+
+[ 2017-08-04T08:34:52+08:00 ] 127.0.0.1 /index.php/Home/order/show.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `tp_location` WHERE ( user_id= ) 
+
+[ 2017-08-04T08:35:03+08:00 ] 127.0.0.1 /index.php/Home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: user_name F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: user_pwd F:\tp_shop\Application\Home\Controller\UserController.class.php 第 10 行.
+SQL: SELECT * FROM `tp_user` WHERE `user_name` = null AND `user_pwd` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-04T11:51:59+08:00 ] 127.0.0.1 /home/test/test.html
+ERR: 1146:Table 'php10_shop.tp_test' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `tp_test`
+
+[ 2017-08-04T11:53:07+08:00 ] 127.0.0.1 /home/test/test.html
+ERR: Think\Model:test方法不存在！
+

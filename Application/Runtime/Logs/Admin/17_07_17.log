@@ -1,0 +1,711 @@
+[ 2017-07-17T09:01:35+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T09:48:16+08:00 ] 127.0.0.1 /Admin/cate/add.html
+ERR: 无法加载控制器:Cate
+
+[ 2017-07-17T13:09:26+08:00 ] 127.0.0.1 /Admin/cate/showlist.html
+ERR: 无法加载控制器:Cate
+
+[ 2017-07-17T13:09:27+08:00 ] 127.0.0.1 /Admin/cate/add.html
+ERR: 无法加载控制器:Cate
+
+[ 2017-07-17T15:54:30+08:00 ] 127.0.0.1 /Admin/brand/edit.html
+ERR: 非法操作:edit
+
+[ 2017-07-17T18:35:17+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T18:46:46+08:00 ] 127.0.0.1 /Admin/cate/del.html
+ERR: Think\Model:del方法不存在！
+
+[ 2017-07-17T18:47:50+08:00 ] 127.0.0.1 /Admin/cate/del.html
+ERR: Think\Model:del方法不存在！
+
+[ 2017-07-17T18:48:15+08:00 ] 127.0.0.1 /Admin/Cate/del.html
+ERR: Think\Model:del方法不存在！
+
+[ 2017-07-17T19:26:39+08:00 ] 127.0.0.1 /Admin/Attribute/showlist.html
+ERR: Think\Model:feild方法不存在！
+
+[ 2017-07-17T19:26:55+08:00 ] 127.0.0.1 /Admin/Attribute/showlist.html
+ERR: 1146:Table 'php10_shop.cate' doesn't exist
+ [ SQL语句 ] : SELECT a.*,b.cate_name FROM tp_attribute a left join cate as b on a.cate_id = b.id  
+
+[ 2017-07-17T19:34:26+08:00 ] 127.0.0.1 /Admin/Attribute/add.html
+ERR: 1146:Table 'php10_shop.cate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cate`
+
+[ 2017-07-17T20:13:55+08:00 ] 127.0.0.1 /Admin/brand/edit.html
+ERR: 非法操作:edit
+
+[ 2017-07-17T20:14:06+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T20:27:46+08:00 ] 127.0.0.1 /Admin/brand/edit.html
+ERR: 非法操作:edit
+
+[ 2017-07-17T20:27:47+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T20:27:50+08:00 ] 127.0.0.1 /Admin/brand/edit.html
+ERR: 非法操作:edit
+
+[ 2017-07-17T20:27:55+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T20:29:17+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T20:31:05+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T20:34:03+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T20:38:47+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0100s ]
+ERR: 非法操作:getAttr
+
+[ 2017-07-17T20:43:15+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0090s ]
+ERR: 非法操作:getAttr
+
+[ 2017-07-17T20:43:54+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0100s ]
+ERR: 非法操作:getAttr
+
+[ 2017-07-17T20:44:09+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T20:44:12+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0150s ]
+ERR: 非法操作:getAttr
+
+[ 2017-07-17T20:45:19+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T20:45:22+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0110s ]
+
+[ 2017-07-17T20:51:50+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0100s ]
+
+[ 2017-07-17T20:51:51+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0120s ]
+
+[ 2017-07-17T20:51:57+08:00 ] 127.0.0.1 /Admin/brand/edit.html
+ERR: 非法操作:edit
+
+[ 2017-07-17T20:51:58+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T20:52:00+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T20:52:07+08:00 ] 127.0.0.1 /Admin/Goods/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='',`goods_number`=NULL,`goods_count`='0',`brand_id`='0',`cate_id`='0',`goods_status`='0',`goods_weight`=NULL,`goods_addtime`=NULL,`goods_click`=NULL,`goods_price`='0.00',`goods_mprice`=NULL,`goods_big_pic`=NULL,`goods_small_pic`=NULL,`goods_description`=NULL WHERE `id` = 10 [ RunTime:0.0000s ]
+
+[ 2017-07-17T20:52:08+08:00 ] 127.0.0.1 /Admin/Goods/del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='',`goods_number`=NULL,`goods_count`='0',`brand_id`='0',`cate_id`='0',`goods_status`='1',`goods_weight`=NULL,`goods_addtime`=NULL,`goods_click`=NULL,`goods_price`='0.00',`goods_mprice`=NULL,`goods_big_pic`=NULL,`goods_small_pic`=NULL,`goods_description`=NULL WHERE `id` = 10 [ RunTime:0.0000s ]
+
+[ 2017-07-17T20:54:11+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T20:54:49+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T20:54:55+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T20:57:50+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T20:58:21+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=0 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T20:58:22+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T20:59:24+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T20:59:33+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T20:59:51+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T20:59:53+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:00:11+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:00:13+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0020s ]
+
+[ 2017-07-17T21:00:15+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:00:16+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:04:53+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T21:04:54+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:04:55+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:05:22+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T21:05:35+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T21:05:37+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:06:35+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:06:41+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:06:45+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T21:07:16+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:07:18+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:07:19+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T21:08:30+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:08:32+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:08:35+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T21:09:55+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:09:56+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:10:12+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T21:10:15+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0020s ]
+
+[ 2017-07-17T21:10:16+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:10:23+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:10:24+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:10:43+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:10:48+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T21:10:50+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:10:53+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:10:54+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:10:55+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T21:11:08+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:11:09+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0020s ]
+
+[ 2017-07-17T21:11:10+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0020s ]
+
+[ 2017-07-17T21:11:11+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T21:11:12+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:11:14+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:11:14+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:11:25+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=0 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:11:27+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T21:11:34+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T21:11:35+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:11:37+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:11:38+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:11:39+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:11:40+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:11:40+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T21:11:44+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=0 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T21:12:47+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T21:12:48+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T21:12:50+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T21:12:51+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=0 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:37:28+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.096006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.113006s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.2460s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0610s ]
+
+[ 2017-07-17T22:37:33+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:37:42+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T22:38:01+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T22:38:08+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T22:39:00+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T22:39:39+08:00 ] 127.0.0.1 /Admin/Goods/admin.php?c=goods&a=showlist
+ERR: 非法操作:admin.php
+
+[ 2017-07-17T22:39:40+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T22:40:29+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:42:43+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T22:43:39+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T22:47:00+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T22:47:06+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:47:47+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=0 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:47:48+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0000s ]
+
+[ 2017-07-17T22:49:12+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T22:49:17+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T22:49:58+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T22:50:37+08:00 ] 127.0.0.1 /Admin/goods/__UPLOAD__
+ERR: 非法操作:__UPLOAD__
+
+[ 2017-07-17T22:50:44+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=3 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T22:50:45+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=1 )  [ RunTime:0.0010s ]
+
+[ 2017-07-17T22:50:55+08:00 ] 127.0.0.1 /Admin/attribute/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_attribute` WHERE ( cate_id=2 )  [ RunTime:0.0010s ]
+

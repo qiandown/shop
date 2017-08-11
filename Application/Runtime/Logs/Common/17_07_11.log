@@ -1,0 +1,15 @@
+[ 2017-07-11T10:16:22+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2017-07-11T11:01:37+08:00 ] 127.0.0.1 /test
+ERR: 无法加载模块:Test
+
+[ 2017-07-11T21:50:04+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2017-07-11T23:07:14+08:00 ] 127.0.0.1 /Publicimg/user_botton.gif
+ERR: 无法加载模块:Publicimg
+
+[ 2017-07-11T23:07:39+08:00 ] 127.0.0.1 /PublicAdmin/img/user_botton.gif
+ERR: 无法加载模块:PublicAdmin
+
